@@ -1,0 +1,27 @@
+:root {
+  --primary-color: rgba(28, 28, 174, 0.8);
+  --background-color: #f8f8f8;
+  --border-color: #e0e0e0;
+  --text-color: #333;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--background-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.headerLogo {
+  width: 3rem;
+  height: 2rem;
+  margin-right: 10px;
+  color: var(--primary-color);
+}
+
+.headerAppName {
+  margin: 0;
+  font-size: 2.5rem;
+  color: var(--text-color);
+}
