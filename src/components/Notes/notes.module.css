@@ -36,8 +36,6 @@
   align-items: center;
 }
 
-
-
 .notesContainer {
   padding: 2rem;
 }
@@ -160,18 +158,18 @@
   border-radius: 50%;
 }
 .notesCardActionsColor {
-    border: none;
-    cursor: pointer;
-    padding: 4px 0 0 0;
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
-    background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 4px 0 0 0;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: transparent;
 }
 .notesCardActionsColor:hover {
-    background-color: var(--light-grey);
-    transition: background-color 0.218s ease-in;
-    border-radius: 50%;
+  background-color: var(--light-grey);
+  transition: background-color 0.218s ease-in;
+  border-radius: 50%;
 }
 .notesCardActionsDeleteMessage {
   margin: 3rem;
