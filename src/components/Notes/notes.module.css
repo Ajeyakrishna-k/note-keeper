@@ -36,39 +36,7 @@
   align-items: center;
 }
 
-.notesCardActionsColor {
-  border: none;
-  cursor: pointer;
-  padding: auto;
-  padding-top: 4px;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-  background-color: transparent;
-}
 
-.notesCardActionsSave {
-  border: none;
-  cursor: pointer;
-  padding: auto;
-  padding-top: 4px;
-  width: 2rem;
-  height: 2rem;
-  background-color: transparent;
-  color: var(--green);
-}
-
-.notesCardActionsSave:hover {
-  background-color: var(--green-light);
-  transition: background-color 0.218s ease-in;
-  border-radius: 50%;
-}
-
-.notesCardActionsColor:hover {
-  background-color: var(--light-grey);
-  transition: background-color 0.218s ease-in;
-  border-radius: 50%;
-}
 
 .notesContainer {
   padding: 2rem;
@@ -165,9 +133,9 @@
 .notesCardActionsDelete {
   border: none;
   cursor: pointer;
-  padding: 4px;
-  width: 1.5rem;
-  height: 1.5rem;
+  padding: 4px 0 0 0;
+  width: 2rem;
+  height: 2rem;
   background-color: transparent;
 }
 
@@ -176,7 +144,35 @@
   transition: background-color 0.218s ease-in;
   border-radius: 50%;
 }
+.notesCardActionsSave {
+  border: none;
+  cursor: pointer;
+  padding: 4px 0 0 0;
+  width: 2rem;
+  height: 2rem;
+  background-color: transparent;
+  color: var(--green);
+}
 
+.notesCardActionsSave:hover {
+  background-color: var(--green-light);
+  transition: background-color 0.218s ease-in;
+  border-radius: 50%;
+}
+.notesCardActionsColor {
+    border: none;
+    cursor: pointer;
+    padding: 4px 0 0 0;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: transparent;
+}
+.notesCardActionsColor:hover {
+    background-color: var(--light-grey);
+    transition: background-color 0.218s ease-in;
+    border-radius: 50%;
+}
 .notesCardActionsDeleteMessage {
   margin: 3rem;
 }
